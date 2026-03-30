@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{Vote}from"../../api/models/Vote";
+describe("Vote",()=>{it("creates",()=>expect(new Vote()).toBeDefined());it("state",()=>{const x=new Vote();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new Vote();x.disable();expect(x.isActive()).toBe(false);});it("reset",()=>{const x=new Vote();x.set("a",1);x.reset();expect(x.has("a")).toBe(false);});it("clone",()=>{const x=new Vote();x.set("v",42);const c=x.clone();expect(c.get("v")).toBe(42);});it("json",()=>{const x=new Vote();expect(x.toJSON().active).toBe(true);});});
