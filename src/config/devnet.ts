@@ -1,0 +1,1 @@
+export const DEVNET_CONFIG={network:"devnet",apiUrl:"https://api.devnet.hiro.so",chainId:2147483648,explorerUrl:"https://explorer.hiro.so/?chain=devnet",wsUrl:"wss://ws.devnet.hiro.so"} as const;
