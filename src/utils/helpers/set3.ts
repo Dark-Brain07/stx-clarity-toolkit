@@ -1,0 +1,3 @@
+export function transform3<T>(data:T[],fn:(item:T,index:number)=>T):T[]{return data.map(fn);}
+export function aggregate3<T>(data:T[],key:keyof T):Map<string,T[]>{const m=new Map<string,T[]>();data.forEach(d=>{const k=String(d[key]);if(!m.has(k))m.set(k,[]);m.get(k)!.push(d);});return m;}
+export function validate3<T>(data:T,rules:Record<string,(v:any)=>boolean>):boolean{return Object.entries(rules).every(([k,fn])=>fn((data as any)[k]));}
