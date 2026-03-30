@@ -1,0 +1,1 @@
+export const SIMNET_CONFIG={network:"simnet",apiUrl:"https://api.simnet.hiro.so",chainId:2147483648,explorerUrl:"https://explorer.hiro.so/?chain=simnet",wsUrl:"wss://ws.simnet.hiro.so"} as const;
