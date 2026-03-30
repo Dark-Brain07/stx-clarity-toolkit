@@ -1,0 +1,1 @@
+export const MOCKNET_CONFIG={network:"mocknet",apiUrl:"https://api.mocknet.hiro.so",chainId:2147483648,explorerUrl:"https://explorer.hiro.so/?chain=mocknet",wsUrl:"wss://ws.mocknet.hiro.so"} as const;
