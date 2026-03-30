@@ -1,0 +1,1 @@
+export const TESTNET_CONFIG={network:"testnet",apiUrl:"https://api.testnet.hiro.so",chainId:2147483648,explorerUrl:"https://explorer.hiro.so/?chain=testnet",wsUrl:"wss://ws.testnet.hiro.so"} as const;
