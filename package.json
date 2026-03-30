@@ -1,0 +1,38 @@
+{
+  "name": "@rajuice/stx-clarity-toolkit",
+  "version": "1.0.0",
+  "description": "Complete developer toolkit for building, testing, and deploying Clarity smart contracts on the Stacks blockchain. Includes contract generation, testing framework, deployment pipeline, and security scanning.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "stacks",
+    "clarity",
+    "smart-contracts",
+    "blockchain",
+    "testing",
+    "deployment",
+    "security",
+    "audit",
+    "web3",
+    "defi",
+    "nft",
+    "hiro"
+  ],
+  "author": "Dark-Brain07",
+  "license": "MIT",
+  "dependencies": {
+    "@stacks/transactions": "^6.0.0",
+    "@stacks/network": "^6.0.0",
+    "@stacks/blockchain-api-client": "^7.0.0",
+    "@hirosystems/clarinet-sdk": "^2.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "vitest": "^1.0.0"
+  }
+}
