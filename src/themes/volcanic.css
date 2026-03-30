@@ -1,0 +1,4 @@
+[data-theme="volcanic"]{--bg-primary:#0a0a1a;--bg-secondary:#141428;--text-primary:#e6edf3;--accent:#5546ff;--success:#22c55e;--warning:#f59e0b;--error:#ef4444;}
+.volcanic-card{background:var(--bg-secondary);border:1px solid rgba(255,255,255,0.05);border-radius:12px;padding:1.5rem;}
+.volcanic-btn{background:var(--accent);color:white;border:none;border-radius:8px;padding:0.5rem 1rem;cursor:pointer;transition:all 0.2s;}
+.volcanic-btn:hover{opacity:0.9;transform:translateY(-1px);}
