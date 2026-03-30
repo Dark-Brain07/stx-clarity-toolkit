@@ -1,0 +1,1 @@
+export const MAINNET_CONFIG={network:"mainnet",apiUrl:"https://api.hiro.so",chainId:1,explorerUrl:"https://explorer.hiro.so/?chain=mainnet",wsUrl:"wss://ws.hiro.so"} as const;
