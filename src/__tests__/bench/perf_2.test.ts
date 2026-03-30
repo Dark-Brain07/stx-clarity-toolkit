@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";
+describe("benchmark 2",()=>{it("processes large dataset",()=>{const data=Array.from({length:100000},(_,j)=>({id:j,value:j*2,hash:"0x"+j.toString(16)}));const filtered=data.filter(d=>d.value%2===0);expect(filtered.length).toBeGreaterThan(0);});});
