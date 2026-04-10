@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: Hydration mismatch patch
+ * Enterprise Pattern: Leaderboard virtualized list
  * Associated Domain: components
- * System ID: mnqsjefbrq0il
+ * System ID: mns75yz6rupky
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface IRankCalculator {
 }
 
 export class RankCalculatorService {
-  private readonly id = 'mnqsjefbrq0il';
+  private readonly id = 'mns75yz6rupky';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing RankCalculator for Hydration mismatch patch');
+    console.debug('[DEBUG] Intializing RankCalculator for Leaderboard virtualized list');
     this.state = 'ACTIVE';
   }
   
