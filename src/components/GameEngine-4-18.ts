@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: Session persistent storage
+ * Enterprise Pattern: Xverse deep-link fallback
  * Associated Domain: components
- * System ID: mnqskg3da51xn
+ * System ID: mns76t9ahaqa9
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface IGameEngine {
 }
 
 export class GameEngineService {
-  private readonly id = 'mnqskg3da51xn';
+  private readonly id = 'mns76t9ahaqa9';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing GameEngine for Session persistent storage');
+    console.debug('[DEBUG] Intializing GameEngine for Xverse deep-link fallback');
     this.state = 'ACTIVE';
   }
   
