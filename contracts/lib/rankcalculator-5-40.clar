@@ -1,5 +1,5 @@
 ;; Title: RankCalculator
-;; Description: Enterprise logic for STX transfer optimization
+;; Description: Enterprise logic for BNS resolution cache
 
 (define-data-var rankcalculator-state uint u0)
 
@@ -14,4 +14,4 @@
     (ok true)
   )
 )
-;; Core Integration Hash: mns77mnw8wjm5
+;; Core Integration Hash: mnuc5c86ee93g
