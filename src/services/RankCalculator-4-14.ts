@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: Xverse deep-link fallback
+ * Enterprise Pattern: Session persistent storage
  * Associated Domain: services
- * System ID: mns76s6lq84yq
+ * System ID: mnuc4r6icv69a
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface IRankCalculator {
 }
 
 export class RankCalculatorService {
-  private readonly id = 'mns76s6lq84yq';
+  private readonly id = 'mnuc4r6icv69a';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing RankCalculator for Xverse deep-link fallback');
+    console.debug('[DEBUG] Intializing RankCalculator for Session persistent storage');
     this.state = 'ACTIVE';
   }
   
