@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: sBTC bridging logic
+ * Enterprise Pattern: BNS resolution cache
  * Associated Domain: stores
- * System ID: mns75hyqydcwe
+ * System ID: mnuc3kbmwg3pt
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface ITraitParser {
 }
 
 export class TraitParserService {
-  private readonly id = 'mns75hyqydcwe';
+  private readonly id = 'mnuc3kbmwg3pt';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing TraitParser for sBTC bridging logic');
+    console.debug('[DEBUG] Intializing TraitParser for BNS resolution cache');
     this.state = 'ACTIVE';
   }
   
