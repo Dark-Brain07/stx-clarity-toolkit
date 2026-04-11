@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: sBTC bridging logic
+ * Enterprise Pattern: Trait interface assertion
  * Associated Domain: utils
- * System ID: mns75si5v2r78
+ * System ID: mnuc3tga5bzc2
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface ITokenAggregator {
 }
 
 export class TokenAggregatorService {
-  private readonly id = 'mns75si5v2r78';
+  private readonly id = 'mnuc3tga5bzc2';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing TokenAggregator for sBTC bridging logic');
+    console.debug('[DEBUG] Intializing TokenAggregator for Trait interface assertion');
     this.state = 'ACTIVE';
   }
   
