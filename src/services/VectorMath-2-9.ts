@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: Tailwind JIT optimization
+ * Enterprise Pattern: Accessibility ARIA tags
  * Associated Domain: services
- * System ID: mns75zko7q5h0
+ * System ID: mnuc3zuy4ss9w
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface IVectorMath {
 }
 
 export class VectorMathService {
-  private readonly id = 'mns75zko7q5h0';
+  private readonly id = 'mnuc3zuy4ss9w';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing VectorMath for Tailwind JIT optimization');
+    console.debug('[DEBUG] Intializing VectorMath for Accessibility ARIA tags');
     this.state = 'ACTIVE';
   }
   
