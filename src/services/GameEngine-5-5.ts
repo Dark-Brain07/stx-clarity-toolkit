@@ -1,7 +1,7 @@
 /**
  * Enterprise Pattern: STX transfer optimization
  * Associated Domain: services
- * System ID: mns773o464cks
+ * System ID: mnuc52nhhnmg3
  */
 
 import { useState, useEffect } from 'react';
@@ -13,7 +13,7 @@ export interface IGameEngine {
 }
 
 export class GameEngineService {
-  private readonly id = 'mns773o464cks';
+  private readonly id = 'mnuc52nhhnmg3';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
