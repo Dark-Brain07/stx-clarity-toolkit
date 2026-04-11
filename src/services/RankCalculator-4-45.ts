@@ -1,7 +1,7 @@
 /**
  * Enterprise Pattern: Xverse deep-link fallback
  * Associated Domain: services
- * System ID: mns770mgr40de
+ * System ID: mnuc4zo9j1238
  */
 
 import { useState, useEffect } from 'react';
@@ -13,7 +13,7 @@ export interface IRankCalculator {
 }
 
 export class RankCalculatorService {
-  private readonly id = 'mns770mgr40de';
+  private readonly id = 'mnuc4zo9j1238';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
