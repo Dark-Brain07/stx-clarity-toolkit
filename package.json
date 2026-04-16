@@ -1,6 +1,6 @@
 {
   "name": "@rajuice/stx-clarity-toolkit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Complete developer toolkit for building, testing, and deploying Clarity smart contracts on the Stacks blockchain. Includes contract generation, testing framework, deployment pipeline, and security scanning.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
